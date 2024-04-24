@@ -104,7 +104,7 @@ class BaseModel(ABC):
 class OpenAIModel(BaseModel):
     def __init__(
         self,
-        model_name="text-embedding-ada-002",
+        model_name="text-embedding-3-small",
         num_dimensions=1536,
         tokenizer_name="cl100k_base",
     ):
